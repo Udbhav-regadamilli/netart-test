@@ -38,31 +38,35 @@ const Content = () => {
       <div className="first-page">
         <img src={pic1} alt="logo" />
         <div className="first-page-details">
-          <ul>
+          <ol>
             <b>
               C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
               the 4th time.
             </b>
             <br />
-            <li>
-              C.R.I.'s energy efficient products are well recognized by various
-              Government Institutions, as trustworthy products for various
-              projects across the globe to save energy.
-            </li>
-            <li>
-              C.R.I. is the highest contributor in the country for the projects
-              of EESL (Energy Efficiency Services Limited) to replace the old
-              inefficient pumps with 5 Star rated energy efficient smart pumps
-              with IoT enabled control panel.
-            </li>
-          </ul>
+            <ul>
+              <li>
+                C.R.I.'s energy efficient products are well recognized by
+                various Government Institutions, as trustworthy products for
+                various projects across the globe to save energy.
+              </li>
+              <li>
+                C.R.I. is the highest contributor in the country for the
+                projects of EESL (Energy Efficiency Services Limited) to replace
+                the old inefficient pumps with 5 Star rated energy efficient
+                smart pumps with IoT enabled control panel.
+              </li>
+            </ul>
+          </ol>
           <img src={pic2} alt="logo" />
           <div className="matter">
             Government of India has awarded the
-            <span className="bold-text"> "National Energy Conservation Award 2018"</span>. Mr. G.
-            Selvaraj, Joint Managing Director of C.R.I. Group received the award
-            from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar
-            Singh, Honorable Minister of State.
+            <span className="bold-text">
+              "National Energy Conservation Award 2018"
+            </span>
+            . Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received
+            the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri.
+            Raj Kumar Singh, Honorable Minister of State.
           </div>
           <br />
         </div>
@@ -84,7 +88,8 @@ const Content = () => {
           <div className="service">CHEMICALS & PROCESS</div>
           <div className="service">POWER WATER & WASTE WATER</div>
           <div className="service">OILS & GAS</div>
-          <div className="service">PHARMA SUGARS & DISTILLERIES</div>
+          <div className="service">PHARMA</div>
+          <div className="service">SUGARS & DISTILLERIES</div>
           <div className="service">PAPER & PULP</div>
           <div className="service">MARINE & DEFENCE</div>
           <div className="service">METAL & MINING</div>
